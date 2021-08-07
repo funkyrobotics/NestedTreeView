@@ -1,0 +1,64 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <PlatformTarget>x64</PlatformTarget>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Resources\bike.png" />
+    <None Remove="Resources\body.png" />
+    <None Remove="Resources\brake.png" />
+    <None Remove="Resources\car.png" />
+    <None Remove="Resources\chasis.png" />
+    <None Remove="Resources\differential.png" />
+    <None Remove="Resources\ecu.png" />
+    <None Remove="Resources\electric.jpg" />
+    <None Remove="Resources\electronic.png" />
+    <None Remove="Resources\engine.png" />
+    <None Remove="Resources\headlights.jpg" />
+    <None Remove="Resources\info.png" />
+    <None Remove="Resources\jeep.png" />
+    <None Remove="Resources\mechanic.png" />
+    <None Remove="Resources\mirror.png" />
+    <None Remove="Resources\motorcycle.png" />
+    <None Remove="Resources\seat.png" />
+    <None Remove="Resources\shiftstick.png" />
+    <None Remove="Resources\shock.png" />
+    <None Remove="Resources\speaker.png" />
+    <None Remove="Resources\steering.png" />
+    <None Remove="Resources\truck.png" />
+    <None Remove="Resources\wheel.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Resources\bike.png" />
+    <Resource Include="Resources\body.png" />
+    <Resource Include="Resources\brake.png" />
+    <Resource Include="Resources\car.png" />
+    <Resource Include="Resources\chasis.png" />
+    <Resource Include="Resources\differential.png" />
+    <Resource Include="Resources\ecu.png" />
+    <Resource Include="Resources\electronic.png" />
+    <Resource Include="Resources\engine.png" />
+    <Resource Include="Resources\headlights.jpg" />
+    <Resource Include="Resources\info.png" />
+    <Resource Include="Resources\jeep.png" />
+    <Resource Include="Resources\mechanic.png" />
+    <Resource Include="Resources\mirror.png" />
+    <Resource Include="Resources\motorcycle.png" />
+    <Resource Include="Resources\seat.png" />
+    <Resource Include="Resources\shiftstick.png" />
+    <Resource Include="Resources\shock.png" />
+    <Resource Include="Resources\speaker.png" />
+    <Resource Include="Resources\steering.png" />
+    <Resource Include="Resources\truck.png" />
+    <Resource Include="Resources\wheel.png" />
+  </ItemGroup>
+
+</Project>
